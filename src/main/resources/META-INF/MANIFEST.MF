@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.4.0
+Build-Jdk-Spec: 11
+Specification-Title: Redisson/Tomcat-8
+Specification-Version: 3.17
+Specification-Vendor: Redisson
+Implementation-Title: Redisson/Tomcat-8
+Implementation-Version: 3.17.1
+Implementation-Vendor: Redisson
+Automatic-Module-Name: redisson.tomcat8
+Build-Time: 2022-04-25T11:45:32Z
+
