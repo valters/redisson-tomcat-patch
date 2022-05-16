@@ -11,7 +11,7 @@
     <groupId>org.redisson</groupId>
     <artifactId>redisson-tomcat-8-fix</artifactId>
     <packaging>jar</packaging>
-    <version>3.17.1-vv</version>
+    <version>3.17.1-vv1</version>
     <name>Redisson/Tomcat-8 bugfix</name>
 
     <dependencies>
