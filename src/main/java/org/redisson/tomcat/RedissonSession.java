@@ -452,9 +452,9 @@ public class RedissonSession extends StandardSession {
         if (lastAccessedTime != null) {
             this.lastAccessedTime = lastAccessedTime.longValue();
         }
-        Integer maxInactiveInterval = (Integer) attrs.remove(MAX_INACTIVE_INTERVAL_ATTR);
+        Number maxInactiveInterval = (Number) attrs.remove(MAX_INACTIVE_INTERVAL_ATTR);
         if (maxInactiveInterval != null) {
-            this.maxInactiveInterval = maxInactiveInterval;
+            this.maxInactiveInterval = maxInactiveInterval.intValue();
         }
         Number thisAccessedTime = (Number) attrs.remove(THIS_ACCESSED_TIME_ATTR);
         if (thisAccessedTime != null) {
